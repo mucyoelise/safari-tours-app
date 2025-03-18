@@ -1,0 +1,23 @@
+{
+  "name": "safari-tours-app",
+  "version": "1.0.0",
+  "description": "A web based application to help tourists in Rwanda search for the places to visit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mucyoelise/safari-tours-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mucyoelise/safari-tours-app/issues"
+  },
+  "homepage": "https://github.com/mucyoelise/safari-tours-app#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
