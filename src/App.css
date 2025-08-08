@@ -1,0 +1,20 @@
+.c-item {
+    height: 80vh;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.custom-modal {
+    max-width: 50vw;
+}
+
+/* Increase width on screens < 600px */
+@media (max-width: 899px) {
+  .custom-modal {
+    max-width: 90vw;
+  }
+}
