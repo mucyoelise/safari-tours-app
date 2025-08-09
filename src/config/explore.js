@@ -1,10 +1,14 @@
+import volcanoImg from '../img/volcano-np.jpg';
+import nyungweImg from '../img/nyungwe-np.jpg';
+import akageraImg from '../img/akagera-np.jpg';
+
 export const exploreConfig = {
     title: "Explore National Parks in Rwanda",
     parks: [
         {
             img: {
-                src:"/img/volcano-np.jpg",
-                alt:"Volcano Park Image"
+                src: volcanoImg,
+                alt: "Volcano Park Image"
             },
             name: "Volcano N.P",
             location:"North West",
@@ -17,7 +21,7 @@ export const exploreConfig = {
         },
         {
             img: {
-                src: "/img/nyungwe-np.jpg",
+                src: nyungweImg,
                 alt: "Nyungwe Park Image"
             },
             name: "Nyungwe N.P",
@@ -31,7 +35,7 @@ export const exploreConfig = {
         },
         {
             img: {
-                src: "/img/akagera-np.jpg",
+                src: akageraImg,
                 alt: "Akagera Park Image"
             },
             name: "Akagera N.P",

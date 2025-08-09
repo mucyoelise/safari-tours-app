@@ -1,10 +1,15 @@
+import gorillaJpg from '../img/gorilla.jpg';
+import familyRwandaJpg from '../img/family-rwanda.jpg';
+import gorillaPng from '../img/gorilla.png';
+import volcanoNpJpg from '../img/volcano-np.jpg';
+
 export const carouselConfig = [
     {
         id: 0,
         title: "Discover the hidden world",
         body: "The Safari Tours",
         img: {
-            src: "/img/gorilla.jpg",
+            src: gorillaJpg,
             alt: "Gorilla Image"
         }
     },
@@ -13,8 +18,8 @@ export const carouselConfig = [
         title: "Explore Rwanda with us",
         body: "3 Available tours",
         img: {
-            src:"/img/family-rwanda.jpg",
-            alt:"Family Image"
+            src: familyRwandaJpg,
+            alt: "Family Image"
         }
     },
     {
@@ -22,7 +27,7 @@ export const carouselConfig = [
         title: "The season has arrived",
         body: "Go glacier hiking",
         img: {
-            src:"/img/gorilla.png",
+            src: gorillaPng,
             alt:"Gorilla Image"
         }
     },
@@ -31,7 +36,7 @@ export const carouselConfig = [
         title: "Destination Activities",
         body: "Trust and Safety Guides",
         img: {
-            src: "/img/volcano-np.jpg",
+            src: volcanoNpJpg,
             alt: "Zebra Image"
         }
     },
